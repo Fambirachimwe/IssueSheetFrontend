@@ -1,7 +1,7 @@
 import { Button, Card, Dialog, DialogPanel, Select, SelectItem, TextInput } from '@tremor/react'
 import React, { useRef, useState } from 'react'
 import { useMutation } from "@tanstack/react-query"
-import { registerUser } from '../../../frontend/src/util/api'
+import { registerUser } from '../src/util/api'
 // import { SignatureCanvas } from 'react-signature-canvas'
 // import Signature from './Signature';
 import { useNavigate } from 'react-router-dom';
