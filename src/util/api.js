@@ -12,6 +12,12 @@ export const createRegister = async (data) => {
     return request
 };
 
+export const registerUser = async (props) => {
+    const request = await axios.post('/users/', props);
+    return request;
+
+}
+
 
 export const getRegisterById = async (id) => {
     const request = await axios.get(`/register/${id}`);
